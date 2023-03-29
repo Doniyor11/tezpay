@@ -959,6 +959,22 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+}
+
+.services__item.item-hover {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.services__item.item-hover._hover {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 .services__item.item-hover-hovered {
@@ -968,10 +984,31 @@ body {
 }
 
 .services__item.item-hover-hovered._hovered {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   margin-left: 0 !important;
   -webkit-transform: translate(0) !important;
       -ms-transform: translate(0) !important;
           transform: translate(0) !important;
+}
+
+.services__item.item-hover-hovered._hovered.item-1 {
+  -webkit-transform: translateX(10px) !important;
+      -ms-transform: translateX(10px) !important;
+          transform: translateX(10px) !important;
+}
+
+.services__item.item-hover-hovered._hovered.item-3 {
+  -webkit-transform: translate(15px, -40px) !important;
+      -ms-transform: translate(15px, -40px) !important;
+          transform: translate(15px, -40px) !important;
+}
+
+.services__item.item-hover-hovered._hovered.item-5 {
+  -webkit-transform: translate(-5px, -25px) !important;
+      -ms-transform: translate(-5px, -25px) !important;
+          transform: translate(-5px, -25px) !important;
 }
 
 .services__item._clicked .item__body {
@@ -979,7 +1016,12 @@ body {
 }
 
 .services__item._clicked .item__clicked {
-  display: block;
+  position: relative;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+  visibility: 1;
 }
 
 .services__item._clicked .item__icon {
@@ -991,7 +1033,17 @@ body {
 }
 
 .services__item .item__clicked {
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: 0;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .services__item.item .item__icon {
