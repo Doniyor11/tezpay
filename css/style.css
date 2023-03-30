@@ -780,6 +780,60 @@ body {
   right: 220px;
 }
 
+.footer__address {
+  margin-top: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.footer__address-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer__address-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer__address-info a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  width: 300px;
+}
+
+.footer__address-link {
+  padding-left: 40px;
+}
+
 .hero {
   height: 100%;
   background: url("../img/hero/bg.png") 0 0/100% 100% no-repeat;
@@ -1582,6 +1636,22 @@ body {
 
   .footer__title {
     margin-bottom: 30px;
+  }
+
+  .footer__address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 30px;
+    margin-top: 25px;
+  }
+
+  .footer__address-item:not(:last-child) {
+    margin-bottom: 0;
   }
 
   .hero {
