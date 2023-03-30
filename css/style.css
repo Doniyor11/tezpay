@@ -834,9 +834,11 @@ body {
   padding-left: 40px;
 }
 
+.no-webp .hero{
+  background: url("../img/hero/bg.png") 0 0/100% 100% no-repeat; }
+
 .hero {
   height: 100%;
-  background: url("../img/hero/bg.png") 0 0/100% 100% no-repeat;
   margin-bottom: 700px;
 }
 
@@ -1646,8 +1648,15 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     row-gap: 30px;
     margin-top: 25px;
+  }
+
+  .footer__address-mobile {
+    margin-left: 85px;
   }
 
   .footer__address-item:not(:last-child) {
@@ -1767,3 +1776,5 @@ body {
     top: -35%;
   }
 }
+
+.webp .hero{ background: url(../img/hero/bg.webp) 0 0/100% 100% no-repeat; }
