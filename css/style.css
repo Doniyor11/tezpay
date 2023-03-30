@@ -834,11 +834,9 @@ body {
   padding-left: 40px;
 }
 
-.no-webp .hero{
-  background: url("../img/hero/bg.png") 0 0/100% 100% no-repeat; }
-
 .hero {
   height: 100%;
+  background: url("../img/hero/bg.png") 0 0/100% 100% no-repeat;
   margin-bottom: 700px;
 }
 
@@ -1707,7 +1705,7 @@ body {
   }
 
   .hero {
-    min-height: 35rem;
+    min-height: 40rem;
   }
 
   .transfer__header-before::before {
@@ -1776,5 +1774,3 @@ body {
     top: -35%;
   }
 }
-
-.webp .hero{ background: url(../img/hero/bg.webp) 0 0/100% 100% no-repeat; }
