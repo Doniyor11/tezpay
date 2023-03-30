@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v 30.03.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,7 @@
       <updated>1680068506391</updated>
       <workItem from="1680068507664" duration="2137000" />
       <workItem from="1680090429988" duration="923000" />
+      <workItem from="1680153359580" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="TezPay Landing build v">
       <created>1680068564812</created>
@@ -78,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680090514553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TezPay Landing build v 30.03.23">
+      <created>1680153477784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680153477784</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TezPay Landing build v 30.03.23">
+      <created>1680153542667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680153542667</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TezPay Landing build v" />
-    <option name="LAST_COMMIT_MESSAGE" value="TezPay Landing build v" />
+    <MESSAGE value="TezPay Landing build v 30.03.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="TezPay Landing build v 30.03.23" />
   </component>
 </project>
