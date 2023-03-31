@@ -1567,6 +1567,10 @@ body {
     line-height: 19px;
   }
 
+  .services .item-mobile {
+    display: none;
+  }
+
   .support {
     padding: 80px 0 40px 0;
   }
@@ -1644,8 +1648,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 30px;
-    margin-top: 25px;
-    margin-left: 45px;
+    width: 290px;
+    margin: 25px auto;
   }
 
   .footer__address-item:not(:last-child) {
