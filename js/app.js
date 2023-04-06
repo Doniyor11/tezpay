@@ -454,6 +454,66 @@
             return false;
         }));
     };
+    const hoverOnItemTwo = () => {
+        const item = document.querySelector(".item-hover-2");
+        const items = document.querySelectorAll(".item-hover-hovered-2");
+        let timeoutId = null;
+        const isTouchDevice = navigator.maxTouchPoints > 0;
+        if (!isTouchDevice) {
+            item.addEventListener("mousemove", (function(e) {
+                if (!timeoutId) timeoutId = setTimeout((function() {
+                    item.classList.add("_hover");
+                    items.forEach((element => {
+                        element.classList.add("_hovered");
+                    }));
+                    timeoutId = null;
+                }), 50);
+            }));
+            item.addEventListener("mouseleave", (function() {
+                clearTimeout(timeoutId);
+                timeoutId = null;
+                item.classList.remove("_hover");
+                items.forEach((element => {
+                    element.classList.remove("_hovered");
+                }));
+            }));
+        }
+        item.addEventListener("click", (e => {
+            e.preventDefault();
+            item.classList.toggle("_clicked");
+            return false;
+        }));
+    };
+    const hoverOnItemThree = () => {
+        const item = document.querySelector(".item-hover-3");
+        const items = document.querySelectorAll(".item-hover-hovered-3");
+        let timeoutId = null;
+        const isTouchDevice = navigator.maxTouchPoints > 0;
+        if (!isTouchDevice) {
+            item.addEventListener("mousemove", (function(e) {
+                if (!timeoutId) timeoutId = setTimeout((function() {
+                    item.classList.add("_hover");
+                    items.forEach((element => {
+                        element.classList.add("_hovered");
+                    }));
+                    timeoutId = null;
+                }), 50);
+            }));
+            item.addEventListener("mouseleave", (function() {
+                clearTimeout(timeoutId);
+                timeoutId = null;
+                item.classList.remove("_hover");
+                items.forEach((element => {
+                    element.classList.remove("_hovered");
+                }));
+            }));
+        }
+        item.addEventListener("click", (e => {
+            e.preventDefault();
+            item.classList.toggle("_clicked");
+            return false;
+        }));
+    };
     window.onload = function() {
         gsap.from(".hero__messages .item.item-01 .item__body", {
             scrollTrigger: ".hero",
@@ -612,8 +672,10 @@
             duration: 1
         });
     };
-    hoverOnItem();
     openBlock();
+    hoverOnItem();
+    hoverOnItemTwo();
+    hoverOnItemThree();
     window["FLS"] = true;
     isWebp();
 })();

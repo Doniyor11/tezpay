@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v 31.03.23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v 31.03.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
       <workItem from="1680154615623" duration="1886000" />
       <workItem from="1680241897344" duration="7007000" />
       <workItem from="1680498778034" duration="10000" />
-      <workItem from="1680585760897" duration="785000" />
+      <workItem from="1680585760897" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="TezPay Landing build v">
       <created>1680068564812</created>
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680585856922</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="TezPay Landing build v 31.03.23">
+      <created>1680595529444</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1680595529444</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
