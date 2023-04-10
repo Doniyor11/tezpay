@@ -1605,7 +1605,7 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 920px) {
   .services__item {
     pointer-events: none;
   }
@@ -1822,6 +1822,9 @@ body {
 @media (max-width: 29.99875em) {
   .icv__icv--horizontal {
     margin: 0 -28%;
+    -webkit-transform: translate(-2%, 0);
+        -ms-transform: translate(-2%, 0);
+            transform: translate(-2%, 0);
   }
 
   .hero {

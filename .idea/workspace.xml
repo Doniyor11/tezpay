@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v 31.03.23" />
+    <list default="true" id="84dc18ca-ec4e-42af-a614-3f413bc71a11" name="Changes" comment="TezPay Landing build v 31.03.23">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-uzbk.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-uzbk.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +24,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NfwaIwKQj0cH6ObyUqloEEMudq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,6 +62,8 @@
       <workItem from="1680241897344" duration="7007000" />
       <workItem from="1680498778034" duration="10000" />
       <workItem from="1680585760897" duration="795000" />
+      <workItem from="1680777988732" duration="631000" />
+      <workItem from="1681099964784" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="TezPay Landing build v">
       <created>1680068564812</created>
@@ -235,13 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680595529444</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TezPay Landing build v 31.03.23">
+      <created>1680778021556</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1680778021556</updated>
+    </task>
+    <task id="LOCAL-00028" summary="TezPay Landing build v 31.03.23">
+      <created>1680778040002</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680778040002</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="TezPay Landing build v" />
     <MESSAGE value="TezPay Landing build v 30.03.23" />
     <MESSAGE value="TezPay Landing build v 31.03.23" />
