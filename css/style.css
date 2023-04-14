@@ -988,7 +988,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 30px;
+  gap: 18px;
   margin-bottom: 25px;
   position: relative;
 }
